@@ -342,6 +342,11 @@ button {
   margin-right: 0;
 }
 /* ----footer---- */
+.footer .container {
+  display: flex;
+  align-items: baseline;
+  gap: 70px;
+}
 
 .footer-adress {
   font-style: normal;
@@ -365,8 +370,7 @@ button {
 .footer-item:not(:last-child) {
   margin-bottom: 9px;
 }
-
-.footer-tel {
+.join-footer-item .footer-tel {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -389,13 +393,45 @@ button {
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
+  display: flex;
 }
 .footer-logo {
   margin-bottom: 20px;
   display: inline-block;
   font-family: "Raleway";
 }
+.join-footer-list {
+  display: flex;
+  gap: 10px;
+}
+.join-footer-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.join-footer-icon {
+  fill: #ffffff;
+}
+.join-footer-link:hover {
+  background-color: #2196f3;
+}
+.join-footer-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 
+  padding-top: 72px;
+  color: #ffffff;
+}
+.join-footer-item {
+}
 /* -----Портфолио------ */
 
 .portfolio-btn {
