@@ -107,6 +107,12 @@ body {
 .header-link:hover {
   color: #2196f3;
 }
+.header-link-icon {
+  margin-right: 10px;
+}
+.header-link-icon:hover {
+  fill: #2196f3;
+}
 /* -----------HERO---------- */
 .hero {
   max-width: 1600px;
