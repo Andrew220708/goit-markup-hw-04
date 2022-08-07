@@ -106,12 +106,11 @@ body {
 }
 .header-link:hover {
   color: #2196f3;
-}
-.header-link-icon {
-  margin-right: 10px;
-}
-.header-link-icon:hover {
   fill: #2196f3;
+}
+
+.header-icon {
+  margin-right: 10px;
 }
 /* -----------HERO---------- */
 .hero {
@@ -198,9 +197,7 @@ button {
   display: flex;
   gap: 30px;
 }
-.features-pre-title {
-  max-width: 270px;
-}
+
 .features-after-title {
   font-size: 14px;
   line-height: 1.71;
