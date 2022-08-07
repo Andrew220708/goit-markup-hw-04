@@ -312,15 +312,13 @@ button {
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.17px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-title-color);
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 .clients-item {
-  margin-top: 50px;
   margin-right: 30px;
 }
 .clients-link {
@@ -398,6 +396,7 @@ button {
 .join-footer-list {
   display: flex;
   gap: 10px;
+  list-style: none;
 }
 .join-footer-link {
   width: 44px;
@@ -421,8 +420,6 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 20px;
-
-  padding-top: 72px;
   color: #ffffff;
 }
 .join-footer-item {
