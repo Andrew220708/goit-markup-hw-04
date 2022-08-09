@@ -350,7 +350,8 @@ button {
   color: #ffffff;
   display: inline-block;
 }
-.footer-link {
+.footer-link,
+.footer-tel {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
