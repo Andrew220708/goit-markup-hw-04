@@ -83,6 +83,8 @@ body {
   margin-left: auto;
 }
 .header-link {
+  display: flex;
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -114,8 +116,8 @@ body {
 }
 /* -----------HERO---------- */
 .hero {
+  padding: 200px 0;
   max-width: 1600px;
-  height: 600px;
   margin: 0 auto;
   text-align: center;
   background-repeat: no-repeat;
@@ -156,7 +158,6 @@ footer {
   color: #ffffff;
   margin-bottom: 30px;
   max-width: 696px;
-  padding-top: 200px;
 }
 
 .hero-btn {
@@ -303,6 +304,7 @@ button {
 /* ------Постоянные клиенты------- */
 .clients-list {
   display: flex;
+  gap: 30px;
 }
 .clients-link:hover,
 .clients-link:focus {
@@ -318,9 +320,7 @@ button {
   color: var(--main-title-color);
   margin-bottom: 50px;
 }
-.clients-item {
-  margin-right: 30px;
-}
+
 .clients-link {
   border: 1px solid #afb1b8;
   border-radius: 4px;
